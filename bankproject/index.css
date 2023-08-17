@@ -1,0 +1,198 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.banknav{
+    width: 100%;
+    height: 150px;
+    background-color: rgb(248, 146, 161);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.logo{
+    width: 20%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.accountButton{
+    width: 120%;
+    height: 100%;
+    font-size: 220%;
+    font-weight: bold;
+    border-radius: 10px;
+    background-color: greenyellow;
+}
+.accounts{
+    width: 50%;
+    height: 90%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 180%;
+    font-weight: bold;
+}
+.bankwelcome{
+    width: 100%;
+    height: 700px;
+    background-color: rgb(180, 214, 202);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.welocme{
+    width: 50%;
+    height: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+#acountDetailes{
+    width: 100%;
+    height: 600px;
+    background-color: rgb(241, 205, 158);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.savingtype{
+    width: 40%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.sbAcountType{
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    font-size: 250%;
+    color: blueviolet;
+    font-weight: 600;
+}
+a{
+    text-decoration: none;
+}
+#currentAcountDetailes{
+    width: 100%;
+    height: 600px;
+    background-color: rgb(241, 205, 158);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.currenttype{
+    width: 50%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.currentAcountType{
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    font-size:250%;
+    color: rgb(169, 129, 207);
+    font-weight: 600;
+}
+#agricultureLoanDeatailes{
+    width: 100%;
+    height: 600px;
+    background-color: rgb(203, 187, 187);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.agricultureloan{
+    width: 50%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.agricultureLoanTypes{
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    font-size: 250%;
+    color: rgb(4, 176, 4);
+    font-weight: 600;
+}
+#loanDeatailes{
+    width: 100%;
+    height: 600px;
+    background-color: rgb(203, 187, 187);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.loan{
+    width: 50%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.loanTypes{
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    font-size: 250%;
+    color: rgb(28, 28, 251);
+    font-weight: 600;
+}
+.bankfooter{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(200, 149, 179);
+}
+.footerone{
+    width: 80%;
+    height: 70%;
+    background-color: rgb(200, 149, 179);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.footertwo{
+    width: 100%;
+    height: 30%;
+    background-color: rgb(167, 117, 146);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.footerimage{
+    width: 25%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.footeroneSection1{
+    display: flex;
+    height: 70%;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    font-size: 180%;
+}

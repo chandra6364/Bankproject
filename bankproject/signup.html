@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #signin{
+            padding-top: 2%;
+            width: 700px;
+            height: 700px;
+            background-color: aquamarine;
+            font-size: x-large;
+            margin: auto;
+        }
+        input,textarea,select{
+            float: right;
+            margin-right: 10%;
+        }
+        label,div{
+            margin-left: 20%;
+        }
+        .marginleft{
+            margin-left: 5%;
+        }
+        .marginright{
+            float: none;
+            margin-right: 0%;
+        }
+        button{
+            font-size: xx-large;
+            border-radius: 10px;
+            color: blueviolet;
+        }
+    </style>
+</head>
+<body>
+    <center><aside for="" style="font-size: 500%; font-weight: bold; color: green;">Create new bank account</aside></center><br>
+    <form id="signin">
+      <label for="">Name : </label><input type="text" required id="name"><br><br> 
+      <label for="">Date of Birth : </label><input type="date"><br><br>
+      <label for="">Mobile no : </label><input type="number"required id="mobilenumber"><br><br> 
+      <label for="">Gender : </label>
+      <label for="" class="marginleft">Male</label><input type="radio" name="gender" class="marginright">
+      <label for="" class="marginleft">Female</label><input type="radio" name="gender" class="marginright">
+      <label for="" class="marginleft">Other</label><input type="radio" name="gender" class="marginright"><br><br>
+      <label for="">Aadhar no : </label><input type="number" required id="aadhar"> <br><br>
+      <label for="">Re-enter aadhar no : </label><input type="number" required id="reenteradhar"> <br><br>
+      <div id="correctadr"></div>
+      <label for="">PAN no : </label><input type="text" id="pan"><br><br>
+      <label for="">Gmail : </label><input type="email"><br><br>
+      <label for="">Adress : </label><textarea name="" id="" cols="30" rows="2" ></textarea> <br><br>
+      <label for="">Branch : </label>
+      <select name="" id="branch" required>
+        <option value=""></option>
+        <option value="">Bangalore</option>
+        <option value="">Tumkur</option>
+        <option value="">Belagavi</option>
+      </select> <br><br>
+      <div id="correctadhar" style="color: red; font-size: xx-large;"></div><br>
+      <center><button onclick="create()" type="reset">Craete account</button></center> 
+    </form>
+    <script src="./index.js"></script>
+</body>
+</html>
